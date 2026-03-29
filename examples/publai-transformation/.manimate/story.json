@@ -1,0 +1,54 @@
+{
+  "title": "PublAI Transformation Engine",
+  "scenes": [
+    {
+      "id": 1,
+      "title": "The Transformation Engine",
+      "description": "Visualize PublAI's content transformation as a neural network diagram. Raw inputs (text, image, video, audio) flow through AI processing layers (Analyze, Compose, Optimize) and emerge as cinematic, branded, engaging output.",
+      "visual_elements": [
+        "4-column neural network layout",
+        "Input nodes (gray) for raw content types",
+        "Processing nodes (green) for AI engine steps",
+        "Output nodes (bright green) for transformed content",
+        "Animated data flow particles along connections",
+        "Mathematical equation at bottom"
+      ],
+      "animations": [
+        "Staggered node appearance with spring physics",
+        "Connection lines fade in between layers",
+        "Data flow particles travel along paths",
+        "Layer labels appear sequentially",
+        "Equation fades in at end"
+      ],
+      "svg_assets": [],
+      "scene_class": "TransformationEngine",
+      "duration": 10,
+      "template": "basic",
+      "text_elements": [
+        "title: 3 words",
+        "layer labels: 2 words each x4",
+        "node labels: 1 word each x12",
+        "equation: 8 words"
+      ],
+      "estimated_reading_pauses": 4.0,
+      "continuity_in": null,
+      "continuity_out": "Full network visible with flowing data particles"
+    }
+  ],
+  "shared_style": {
+    "background_color": "#0D0D0D",
+    "primary_color": "#61BA5E",
+    "accent_color": "#7DD47A",
+    "highlight_color": "#FFFFFF",
+    "success_color": "#61BA5E",
+    "text_color": "#FFFFFF",
+    "muted_color": "#888888",
+    "input_color": "#888888",
+    "font_heading": "Playfair Display",
+    "font_body": "Inter",
+    "font_code": "JetBrains Mono",
+    "font_size_title": 48,
+    "font_size_body": 24
+  },
+  "latex_available": false
+}
